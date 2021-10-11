@@ -2,17 +2,43 @@ body {
     
     background: lightslategray;
 }
+
+.header {
+    display: flex;
+    height: 150px;
+    margin: 0; 
+    padding: 0;
+    align-items: center;
+    background-color: rgb(33, 116, 58);
+}
+
 .container {
     display: flex;
     height: 600px;
     width: 50%;
     border: 2px solid black;
     background: content-box radial-gradient(crimson, skyblue);
-    -ms-flex-align: center;
+    justify-items: center;
 }
 
 .container:hover {
-    transform: scale(0.8, 0.8);
+    transform: scale(0.9, 0.9);
     transition-duration: 500ms;
     background: content-box radial-gradient(rgb(40, 20, 220), rgb(227, 135, 235));
+}
+
+.one {
+
+}
+
+.two {
+
+}
+
+.tree {
+
+}
+
+.four {
+
 }

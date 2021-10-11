@@ -1,0 +1,18 @@
+body {
+    
+    background: lightslategray;
+}
+.container {
+    display: flex;
+    height: 600px;
+    width: 50%;
+    border: 2px solid black;
+    background: content-box radial-gradient(crimson, skyblue);
+    -ms-flex-align: center;
+}
+
+.container:hover {
+    transform: scale(0.8, 0.8);
+    transition-duration: 500ms;
+    background: content-box radial-gradient(rgb(40, 20, 220), rgb(227, 135, 235));
+}
